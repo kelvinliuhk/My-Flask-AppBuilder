@@ -1,18 +1,18 @@
-# Chinese translations for PROJECT.
-# Copyright (C) 2014 ORGANIZATION
+# Chinese (Traditional, Hong Kong SAR China) translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2015-09-17 13:23+0100\n"
-"PO-Revision-Date: 2014-04-21 15:20+0000\n"
+"PO-Revision-Date: 2017-11-23 06:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh\n"
-"Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: zh_Hant_HK\n"
+"Language-Team: zh_Hant_HK <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "訪問被拒絕"
 
 #: flask_appbuilder/fields.py:77 flask_appbuilder/fields.py:79
 #: flask_appbuilder/fields.py:131 flask_appbuilder/fields.py:138
-#, fuzzy
+#, 
 msgid "Not a valid choice"
 msgstr "選擇無效"
 
@@ -49,7 +49,7 @@ msgstr "保存"
 
 #: flask_appbuilder/messages.py:12
 msgid "This field is required."
-msgstr "此字段是必需的"
+msgstr "此字段是必填的"
 
 #: flask_appbuilder/messages.py:13
 msgid "Not a valid date value"
@@ -92,7 +92,7 @@ msgstr "存在關聯數據，請先將其刪除"
 
 #: flask_appbuilder/models/base.py:25 flask_appbuilder/models/base.py:26
 msgid "Integrity error, probably unique constraint"
-msgstr "數據完整性錯誤，可能缺少必填字段數據"
+msgstr "數據完整性錯誤，可能缺少必填字段"
 
 #: flask_appbuilder/models/base.py:27
 msgid "General Error"
@@ -148,19 +148,19 @@ msgid "Smaller than"
 msgstr "小於"
 
 #: flask_appbuilder/models/generic/filters.py:55
-#, fuzzy
+#, 
 msgid "Start with"
-msgstr "以開始"
+msgstr "開始為"
 
 #: flask_appbuilder/models/mongoengine/filters.py:50
 #: flask_appbuilder/models/sqla/filters.py:15
 msgid "Starts with"
-msgstr "以開始"
+msgstr "開始為"
 
 #: flask_appbuilder/models/mongoengine/filters.py:58
 #: flask_appbuilder/models/sqla/filters.py:22
 msgid "Not Starts with"
-msgstr "不以開始"
+msgstr "非開始為"
 
 #: flask_appbuilder/models/mongoengine/filters.py:82
 #: flask_appbuilder/models/sqla/filters.py:91
@@ -174,15 +174,15 @@ msgstr "多重關聯"
 
 #: flask_appbuilder/models/sqla/filters.py:29
 msgid "Ends with"
-msgstr "以結束"
+msgstr "結束為"
 
 #: flask_appbuilder/models/sqla/filters.py:36
 msgid "Not Ends with"
-msgstr "不以結束"
+msgstr "非結束為"
 
 #: flask_appbuilder/models/sqla/filters.py:99
 msgid "No Relation"
-msgstr "不關聯"
+msgstr "無關聯"
 
 #: flask_appbuilder/security/forms.py:10
 msgid "OpenID"
@@ -232,15 +232,15 @@ msgstr "密碼必須一致"
 #: flask_appbuilder/security/forms.py:34 flask_appbuilder/security/forms.py:51
 #: flask_appbuilder/security/views.py:101
 msgid "First Name"
-msgstr "名"
+msgstr "名字"
 
 #: flask_appbuilder/security/forms.py:35 flask_appbuilder/security/forms.py:52
 #: flask_appbuilder/security/views.py:102
 msgid "Last Name"
-msgstr "姓"
+msgstr "姓氏"
 
 #: flask_appbuilder/security/forms.py:36 flask_appbuilder/security/forms.py:53
-#, fuzzy
+#, 
 msgid "Email"
 msgstr "電子郵箱"
 
@@ -280,7 +280,7 @@ msgstr "視圖/菜單權限"
 
 #: flask_appbuilder/security/registerviews.py:55
 msgid "Account activation"
-msgstr "帳號激活"
+msgstr "啟動戶口"
 
 #: flask_appbuilder/security/registerviews.py:59
 msgid "Registration sent to your email"
@@ -385,7 +385,7 @@ msgstr "全名"
 
 #: flask_appbuilder/security/views.py:105
 msgid "Is Active?"
-msgstr "是否激活？"
+msgstr "戶口已啟動？"
 
 #: flask_appbuilder/security/views.py:106
 msgid "EMail"
@@ -397,17 +397,17 @@ msgstr "角色"
 
 #: flask_appbuilder/security/views.py:108
 msgid "Last login"
-msgstr "上一次登錄"
+msgstr "上一次登入"
 
 #: flask_appbuilder/security/views.py:109
 #: flask_appbuilder/security/views.py:269
 msgid "Login count"
-msgstr "登錄次數"
+msgstr "登入次數"
 
 #: flask_appbuilder/security/views.py:110
 #: flask_appbuilder/security/views.py:270
 msgid "Failed login count"
-msgstr "失敗的登錄次數"
+msgstr "登入失敗的次數"
 
 #: flask_appbuilder/security/views.py:111
 msgid "Created on"
@@ -438,7 +438,7 @@ msgid "Username valid for authentication on DB or LDAP, unused for OID auth"
 msgstr "用戶名將被用於數據庫或LDAP認證，不用於OID驗證"
 
 #: flask_appbuilder/security/views.py:122
-#, fuzzy
+#, 
 msgid "It's not a good policy to remove a user, just make it inactive"
 msgstr "不建議刪除用戶，只需禁用即可"
 
@@ -529,7 +529,7 @@ msgstr "無效的用戶名或密碼，請重試！"
 #: flask_appbuilder/templates/appbuilder/general/security/login_oauth.html:56
 #: flask_appbuilder/templates/appbuilder/general/security/login_oid.html:118
 msgid "Sign In"
-msgstr "登錄"
+msgstr "登入"
 
 #: flask_appbuilder/templates/appbuilder/baselib.html:115
 #: flask_appbuilder/templates/appbuilder/navbar_right.html:37
@@ -539,12 +539,12 @@ msgstr "用戶信息"
 #: flask_appbuilder/templates/appbuilder/baselib.html:116
 #: flask_appbuilder/templates/appbuilder/navbar_right.html:38
 msgid "Logout"
-msgstr "註銷"
+msgstr "登出"
 
 #: flask_appbuilder/templates/appbuilder/baselib.html:122
 #: flask_appbuilder/templates/appbuilder/navbar_right.html:43
 msgid "Login"
-msgstr "登錄"
+msgstr "登入"
 
 #: flask_appbuilder/templates/appbuilder/general/security/activation.html:5
 #: flask_appbuilder/templates/appbuilder/index.html:4
@@ -597,7 +597,7 @@ msgstr "按字段分組"
 
 #: flask_appbuilder/templates/appbuilder/general/security/activation.html:7
 msgid "Your user is activated you can now proceed to login"
-msgstr "用戶已激活，現在可以登錄"
+msgstr "用戶已啟動，現在可以登入"
 
 #: flask_appbuilder/templates/appbuilder/general/security/login_db.html:19
 #: flask_appbuilder/templates/appbuilder/general/security/login_ldap.html:16
@@ -638,13 +638,13 @@ msgid "Please choose a provider"
 msgstr "請選擇下列選項之一"
 
 #: flask_appbuilder/templates/appbuilder/general/security/login_oid.html:107
-#, fuzzy
+#, 
 msgid "Enter your OpenID Username"
 msgstr "或在此處輸入您的OpenID"
 
 #: flask_appbuilder/templates/appbuilder/general/security/register_oauth.html:15
 msgid "Sign in using:"
-msgstr "通過以下方式登錄："
+msgstr "通過以下方式登入："
 
 #: flask_appbuilder/templates/appbuilder/general/widgets/search.html:7
 msgid "Add Filter"
